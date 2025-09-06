@@ -4697,6 +4697,214 @@ name: "Entrana",
       can_be_in_pota: true
     }]
   },
+  {
+    type: "teleports",
+    id: "slayer_relic_masters_locs",
+    name: "Assassin's Insight",
+    img: {url: "capeslay.png"},
+    menu_ticks: 2,
+    animation_ticks: default_teleport_ticks,
+    access: [
+      {id: "item", type: "item", name: {kind: "item", name: "Assassin's Insight"}, action_name: "Teleport", img: {url: "capeslay.png"}}
+    ],
+    spots: [
+      {
+        id: "spria",
+        target: {"origin": {"x": 2888, "y": 3545, "level": 0}, "size": {"x": 5, "y": 5}, "data": "//8dAQ=="},
+        code: "1",
+        name: "Spria",
+        menu_ticks: 2,
+      },
+      {
+        id: "jacquelyn",
+        target: {"origin": {"x": 3219, "y": 3222, "level": 0}, "size": {"x": 5, "y": 5}, "data": "//8/AQ=="},
+        code: "2",
+        name: "Jacquelyn",
+        menu_ticks: 2,
+      },
+      {
+        id: "vannaka",
+        target: {"origin": {"x": 3091, "y": 3476, "level": 0}, "size": {"x": 5, "y": 5}, "data": "3n/vAQ=="},
+        code: "3",
+        name: "Vannaka",
+        menu_ticks: 2,
+      },
+      {
+        id: "raptor",
+        target: {"origin": {"x": 3290, "y": 3542, "level": 0}, "size": {"x": 5, "y": 5}},
+        code: "4",
+        name: "The Raptor",
+      },
+      {
+        id: "mazchna",
+        target: {"origin": {"x": 3506, "y": 3504, "level": 0}, "size": {"x": 5, "y": 5}},
+        code: "5",
+        name: "Mazchna",
+      },
+      {
+        id: "chaeldar",
+        target: {"origin": {"x": 2443, "y": 4429, "level": 0}, "size": {"x": 5, "y": 5}, "data": "/H9CAA=="},
+        code: "6",
+        name: "Chaeldar",
+      },
+      {
+        id: "sumona",
+        target: {"origin": {"x": 3357, "y": 2991, "level": 0}, "size": {"x": 5, "y": 5}, "data": "5nxjAA=="},
+        code: "7",
+        name: "Sumona",
+      },
+      {
+        id: "lapalok",
+        target: {"origin": {"x": 2868, "y": 2979, "level": 1}, "size": {"x": 3, "y": 5}, "data": "0jc="},
+        code: "8",
+        name: "Lapalok",
+      },
+      {
+        id: "kuradal",
+        target: {"origin": {"x": 1738, "y": 5310, "level": 1}, "size": {"x": 5, "y": 5}, "data": "/v/nAA=="},
+        code: "9",
+        name: "Kuradal",
+      },
+      {
+        id: "morvran",
+        target: {"origin": {"x": 2195, "y": 3327, "level": 1}, "size": {"x": 3, "y": 3}, "data": "TwA="},
+        code: "0",
+        name: "Morvran",
+      },
+      {
+        id: "laniakea",
+        target: {"origin": {"x": 5667, "y": 2136, "level": 0}, "size": {"x": 5, "y": 5}, "data": "///PAQ=="},
+        code: "A",
+        name: "Laniakea",
+      },
+      {
+        id: "mandrith",
+        target: {"origin": {"x": 3050, "y": 3949, "level": 0}, "size": {"x": 5, "y": 5}},
+        code: "B",
+        name: "Mandrith",
+      },
+      {
+        id: "ancient_cavern",
+        target: {"origin": {"x": 1764, "y": 5365, "level": 1}, "size": {"x": 1, "y": 1}},
+        code: "C",
+        name: "Ancient Cavern",
+      },
+      {
+        id: "ascension_dungeon",
+        target: {"origin": {"x": 2502, "y": 2886, "level": 0}, "size": {"x": 1, "y": 1}},
+        code: "D",
+        name: "Ascension Dungeon",
+      },
+      {
+        id: "asgarnian_ice_dungeon",
+        target: {"origin": {"x": 3010, "y": 3150, "level": 0}, "size": {"x": 1, "y": 1}},
+        code: "E",
+        name: "Asgarnian Ice Dungeon",
+      },
+      {
+        id: "braindeath_island",
+        target: {"origin": {"x": 2162, "y": 5114, "level": 0}, "size": {"x": 1, "y": 1}},
+        code: "F",
+        name: "Braindeath Island",
+      },
+      {
+        id: "airuts",
+        target: {"origin": {"x": 2268, "y": 3610, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Airuts",
+      },
+      {
+        id: "acheron_mammoths",
+        target: {"origin": {"x": 2460, "y": 3993, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Acheron mammoths",
+      },
+      {
+        id: "brutish_dinosaurs",
+        target: {"origin": {"x": 5527, "y": 2551, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Brutish dinosaurs",
+      },
+      {
+        id: "camel_warriors",
+        target: {"origin": {"x": 3358, "y": 2747, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Camel warriors",
+      },
+      {
+        id: "celestial_dragons",
+        target: {"origin": {"x": 3812, "y": 3528, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Celestial dragons",
+      },
+      {
+        id: "desert_strykewyrms",
+        target: {"origin": {"x": 3359, "y": 3160, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Desert strykewyrms",
+      },
+      {
+        id: "devils_snare",
+        target: {"origin": {"x": 5701, "y": 2191, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Devil's snare",
+      },
+      {
+        id: "edimmus",
+        target: {"origin": {"x": 2234, "y": 3422, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Edimmus",
+      },
+      {
+        id: "feral_dinosaurs",
+        target: {"origin": {"x": 5520, "y": 2514, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Feral dinosaurs",
+      },
+      {
+        id: "ice_strykewyrms",
+        target: {"origin": {"x": 2736, "y": 3730, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Ice strykewyrms",
+      },
+      {
+        id: "jungle_strykewyrms",
+        target: {"origin": {"x": 2457, "y": 2912, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Jungle strykewyrms",
+      },
+      {
+        id: "kalgerion_demons",
+        target: {"origin": {"x": 3400, "y": 3665, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Kal'gerion demons",
+      },
+      {
+        id: "lampenfloras",
+        target: {"origin": {"x": 5600, "y": 2279, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Lampenfloras",
+      },
+      {
+        id: "liverworts",
+        target: {"origin": {"x": 5594, "y": 2389, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Liverworts",
+      },
+      {
+        id: "luminous_snagglers",
+        target: {"origin": {"x": 5283, "y": 2398, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Luminous snagglers",
+      },
+      {
+        id: "ripper_demons",
+        target: {"origin": {"x": 3351, "y": 3148, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Ripper demons",
+      },
+      {
+        id: "ripper_dinosaurs",
+        target: {"origin": {"x": 5696, "y": 2176, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Ripper dinosaurs",
+      },
+      {
+        id: "tormented_demons",
+        target: {"origin": {"x": 3230, "y": 9524, "level": 2}, "size": {"x": 1, "y": 1}},
+        name: "Tormented demons",
+      },
+      { // Excluded from relic preview - this is a guess
+        id: "venomous_dinosaur",
+        target: {"origin": {"x": 5413, "y": 2523, "level": 0}, "size": {"x": 1, "y": 1}},
+        name: "Venomous dinosaurs",
+      }
+    ]
+  },
+  
 //TODO: Eagle transport system
 //TODO: Canoes
 //TODO: Orthen Teleport network
