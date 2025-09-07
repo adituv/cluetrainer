@@ -4809,7 +4809,7 @@ name: "Entrana",
       },
       {
 	id: "brimhaven_dungeon",
-        target: {"origin": {"x": 2743, "y": 3169, "level": 0}, "size": {"x": 1, "y": 1}},
+        target: {"origin": {"x": 2744, "y": 3152, "level": 0}, "size": {"x": 1, "y": 1}},
 	code: "G",
 	name: "Brimhaven Dungeon"
       },
