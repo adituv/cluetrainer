@@ -4700,7 +4700,7 @@ name: "Entrana",
   {
     type: "teleports",
     id: "slayer_relic_masters_locs",
-    name: "Assassin's Insight",
+    name: "Skull of Slaying",
     img: {url: "slayer_tp_relic.png"},
     menu_ticks: 2,
     animation_ticks: default_teleport_ticks,
@@ -4806,6 +4806,171 @@ name: "Entrana",
         target: {"origin": {"x": 2162, "y": 5114, "level": 0}, "size": {"x": 1, "y": 1}},
         code: "F",
         name: "Braindeath Island",
+      },
+      {
+	id: "brimhaven_dungeon",
+        target: {"origin": {"x": 2743, "y": 3169, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "G",
+	name: "Brimhaven Dungeon"
+      },
+      {
+	id: "burthorpe_slayer_cave",
+        target: {"origin": {"x": 2919, "y": 3467, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "H",
+	name: "Burthorpe Slayer Cave"
+      },
+      {
+	id: "dorgesh_kaan_south_dungeon",
+        target: {"origin": {"x": 2715, "y": 5241, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "I",
+	name: "Dorgesh-Kaan South Dungeon"
+      },
+      {
+	id: "fremennik_slayer_dungeon",
+        target: {"origin": {"x": 2793, "y": 3615, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "J",
+	name: "Fremennik Slayer Dungeon"
+      },
+      {
+	id: "gemstone_cavern",
+        target: {"origin": {"x": 2825, "y": 2997, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "K",
+	name: "Gemstone Cavern"
+      },
+      {
+	id: "glacor_cave",
+        target: {"origin": {"x": 2912, "y": 3842, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "L",
+	name: "Glacor Cave"
+      },
+      {
+	id: "god_wars_dungeon",
+        target: {"origin": {"x": 2915, "y": 3738, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "M",
+	name: "God Wars Dungeon"
+      },
+      {
+	id: "grotworm_lair",
+        target: {"origin": {"x": 2990, "y": 3237, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "N",
+	name: "Grotworm Lair"
+      },
+      {
+	id: "guthixian_ruins",
+        target: {"origin": {"x": 2708, "y": 3372, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "O",
+	name: "Guthixian Ruins"
+      },
+      {
+	id: "jadinko_lair",
+        target: {"origin": {"x": 2947, "y": 2957, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "P",
+	name: "Jadinko Lair"
+      },
+      {
+	id: "kuradals_dungeon",
+        target: {"origin": {"x": 1660, "y": 5257, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "Q",
+	name: "Kuradal's Dungeon"
+      },
+      {
+	id: "lost_grove",
+        target: {"origin": {"x": 1374, "y": 5547, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "R",
+	name: "Lost Grove"
+      },
+      {
+	id: "lumbridge_swamp_caves",
+        target: {"origin": {"x": 3189, "y": 3160, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "S",
+	name: "Lumbridge Swamp Caves"
+      },
+      {
+	id: "morytania_slayer_tower",
+        target: {"origin": {"x": 3423, "y": 3524, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "T",
+	name: "Morytania Slayer Tower"
+      },
+      {
+	id: "mos_le_harmless_caves",
+        target: {"origin": {"x": 3750, "y": 2973, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "U",
+	name: "Mos Le'Harmless Caves"
+      },
+      {
+	id: "poison_waste_slayer_dungeon",
+        target: {"origin": {"x": 2321, "y": 3101, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "V",
+	name: "Poison Waste Slayer Dungeon"
+      },
+      {
+	id: "pollnivneach_slayer_dungeon",
+        target: {"origin": {"x": 3360, "y": 2971, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "W",
+	name: "Pollnivneach Slayer Dungeon"
+      },
+      {
+	id: "polypore_dungeon",
+        target: {"origin": {"x": 3410, "y": 3328, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "X",
+	name: "Polypore Dungeon"
+      },
+      {
+	id: "scabarite_cavern",
+        target: {"origin": {"x": 3317, "y": 2992, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "Y",
+	name: "Scabarite Cavern"
+      },
+      {
+	id: "senntisten_cathedral",
+        target: {"origin": {"x": 1759, "y": 1256, "level": 0}, "size": {"x": 1, "y": 1}},
+	code: "Z",
+	name: "Senntisten (Cathedral)"
+      },
+      {
+	id: "senntisten_asylum",
+        target: {"origin": {"x": 1940, "y": 1480, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "Senntisten Asylum"
+      },
+      {
+	id: "smoke_dungeon",
+        target: {"origin": {"x": 3309, "y": 2962, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "Smoke Dungeon"
+      },
+      {
+	id: "sophanem_slayer_dungeon",
+        target: {"origin": {"x": 3290, "y": 2708, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "Sophanem Slayer Dungeon"
+      },
+      {
+	id: "stalker_dungeon",
+        target: {"origin": {"x": 2271, "y": 9223, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "Stalker Dungeon"
+      },
+      {
+	id: "sunken_pyramid",
+        target: {"origin": {"x": 3029, "y": 2676, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "Sunken Pyramid"
+      },
+      {
+	id: "taverley_dungeon",
+        target: {"origin": {"x": 2885, "y": 3395, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "Taverley Dungeon"
+      },
+      {
+	id: "tzhaar_city",
+        target: {"origin": {"x": 2845, "y": 3169, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "TzHaar City"
+      },
+      {
+	id: "waterbirth_island",
+        target: {"origin": {"x": 2550, "y": 3759, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "Waterbirth Island"
+      },
+      {
+	id: "world_gate",
+        target: {"origin": {"x": 2367, "y": 3359, "level": 0}, "size": {"x": 1, "y": 1}},
+	name: "The World Gate"
       },
       {
         id: "airuts",
